@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/787183d21a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="scritp.js"></script>
     <title>Login Form in HTML and CSS</title>
 </head>
 <body>
 
     <section class="login-page">
-
+<div class="backgroundblur">
         <h1>Login</h1>
 
         <form>
@@ -32,14 +33,20 @@
                 <input type="password" id="password" placeholder="Password">
                 <i class="fa-solid fa-key fa-logo"></i>
             </div>
+<div class="checkbox">
+    <label class="remember"><input class="remember" type="checkbox">Remember Me</label>
 
-            <input type="checkbox"> Remember Me
-            <a href="#">Forgot Password?</a>
+            <a class="forgot" href="#">Forgot Password?</a>
+
+</div>
 
             <div class="form-element">
-                <input type="submit" value="Login">
+                <input class="submit" type="submit" value="Login">
             </div>
+
+            <div class="text"> Don't have an account? <a class="forgot blod" href="#">Sign Up</a></div>
         </form>
+        </div>
         
     </section>
     
